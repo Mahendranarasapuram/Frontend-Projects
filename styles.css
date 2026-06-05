@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f5f5f5;
+}
+header{
+    background:#111;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+nav{
+    height:90px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px  5px white; 
+    position: fixed;
+}
+.nav-logo{
+    height: 100%;
+    flex:0.4;
+    font-size:20px;
+    color:#d89a4d;
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+.nav-menu{
+    height:100%;
+    flex:1;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: solid black;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #d89a4d; /* gold accent color */
+    border-bottom: 2px solid #d89a4d; /* underline effect */
+}
+.Hero{
+    height:400px;
+    width:100%;
+    display:flex;
+    background-image: url("https://i.pinimg.com/originals/e9/88/09/e988093865a29fbf6ed8c4f0beb8e302.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-left:70px;
+}
+
+.Hero-info-box{
+    height:100%;
+    flex:0.5;
+    padding:70px;
+    border-radius:10px;
+    color:white;
+
+}
+.Hero-info-box h1{
+    font-size:70px;
+    font-weight:bold;
+    color:black;
+}
+
+.Hero-info-box h2{
+    color:#d89a4d;
+    font-style:italic;
+    margin:10px 0;
+}
+
+.Hero-info-box p{
+    font-size:20px;
+    margin-bottom:20px;
+    color: black;
+}
+.Hero-info-box button{
+    background-color:orange;
+    color:white;
+}
+.about{
+    height:50vh;
+    width:100%;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px 100px;
+    display:flex;
+    gap:30px;
+}
+.about-card{
+    flex:1;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid ;
+}
+.about-info h1{
+    padding:30px;
+    
+}
+.about-info{
+
+    height:100%;
+    flex:1;
+}
+.about img{
+    height:246px;
+    width:450px;
+    border-radius:20px;
+}
+
+.menu{
+            min-height:50vh;
+            width:100%;
+            text-align: center;
+            padding: 50px 100px;
+            display:flex;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+        .menu h2{
+            width:100%;
+            text-align:center;
+            margin-bottom:20px;
+        }
+        .menu-card1, .menu-card2, .menu-card3, .menu-card4{
+            flex:1;
+            min-width:200px;
+            border-radius: 20px;
+            border: 1px solid ;
+            overflow:hidden;
+        }
+        .menu-card1-img img,
+        .menu-card2-img img,
+        .menu-card3 img,
+        .menu-card4-img img{
+            width:100%;
+            height:180px;
+            object-fit:cover;
+            border-radius:20px 20px 0 0;
+        }
+        .menu-card1-info, .menu-card2-info, .menu-card3-info, .menu-card4-info{
+            padding:20px;
+        }
+        .btn, .menu-card1-info button{
+            background-color:#d89a4d;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:8px;
+            cursor:pointer;
+        }
+        .btn:hover, .menu-card1-info button:hover{
+            background-color:#b3772f;
+    }
+.form{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap:10px;
+    background-color: white;
+}
+
+.row{
+    display:flex;
+    gap:20px;
+    margin-bottom:15px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+}
+
+textarea{
+    height:100px;
+}
+
+.submit-btn{
+    background:#f0a13d;
+    border:1px solid white;
+    color:white;
+    padding:10px 50%;
+}
+
+footer{
+    background:#111;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.social a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
